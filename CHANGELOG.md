@@ -14,6 +14,7 @@
 
 - **破坏性变更**：包名与 PyPI 发布名从 `notenotice` 改为 `funnotice`，以匹配仓库名。原先 `import notenotice` / `pip install notenotice` 的用法需迁移为 `import funnotice` / `pip install funnotice`。
 - 源码目录迁移到 `src/funnotice/` 标准布局。
+- 开发环境加入 Ruff，并统一版本来源到 `pyproject.toml`。
 
 ### 废弃
 
