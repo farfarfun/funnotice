@@ -18,4 +18,7 @@
 
 ### 废弃
 
-- 旧 `notenotice` PyPI 包计划发布一个最终版本，转发依赖到 `funnotice`（需要仓库所有者手动操作，不在本次改动范围内，见 [farfarfun/todo-list#441](https://github.com/farfarfun/todo-list/issues/441)）。
+- 旧包名 `notenotice` 从未发布到 PyPI（`pypi.org/pypi/notenotice/json` 返回 404），
+  也不存在独立的 `farfarfun/notenotice` 仓库，没有需要迁移的下游用户，因此不需要也
+  无法发布"最终转发版本"（见 [farfarfun/todo-list#441](https://github.com/farfarfun/todo-list/issues/441)、
+  [#575](https://github.com/farfarfun/todo-list/issues/575)）。
